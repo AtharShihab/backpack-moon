@@ -1,0 +1,27 @@
+header{
+    background-color: #FFFFF4;
+    height: 715px;
+}
+.header-area h1{
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+}
+.cl-dark-blue{
+    color: #363958;
+}
+.cl-light-green{
+    color: #76C27E;
+}
+.btn-dark-blue{
+    background-color: #363958;
+    color: white;
+}
+.bp-card{
+    border: 0;
+    border-radius: 20px;
+}
+.bp-footer{
+    background-color: white;
+    border: 0;
+}
