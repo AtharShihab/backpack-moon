@@ -3,12 +3,8 @@ body{
 }
 header{
     background-color: #FFFFF4;
-    height: 715px;
+    height: 670px;
 }
-main{
-    padding-top: 4em;
-}
-
 .header-area h1{
     font-size: 80px;
     margin: 0;
@@ -18,19 +14,20 @@ main{
     margin-top: 2em;
 
 }
-.services img{
-    width: 94%;
+.header-area img, .services img{
+    max-width: 100%;
 }
-.cl-dark-blue{
-    color: #363958;
+.cl-earthy{
+    color: #bc986a;
 }
-.cl-light-green{
-    color: #76C27E;
+.cl-sky-blue{
+    color: #659dbd;
 }
-.btn-dark-blue{
-    background-color: #363958;
+.btn-earthy{
+    background-color: #bc986a;
     color: white;
 }
+
 .bp-card{
     border: 0;
     border-radius: 20px;
@@ -39,20 +36,52 @@ main{
     background-color: white;
     border: 0;
 }
-
-@media only screen and (max-width: 992px){
-    header{
-        margin-bottom: 30px;
+.bp-card img{
+    padding: 2em;
+}
+.subscribe-area{
+    background-color: #FFFFF4;
+    padding: 60px;
+    height: 300px;
+}
+.subscribe-area div{
+    text-align: center;
+}
+.subscription-form{
+    width: 90%;
+    margin: auto;
+}
+.subscription-form div{
+    padding: 0;
+    margin: 0;
+}
+.subscription-form input,.subscription-form button{
+    height: 40px;
+    width: 100%;
+}
+.subscription-form input{
+    border-radius: 5px 0px 0 5px;
+}
+.subscription-form button{
+    border-radius: 0 5px 5px 0;
+}
+@media only screen and (max-width: 768px){
+    main{
+        padding-top: 8em;
     }
-    .navbar-brand img, .services img{
-        width: 100%;
+    .bp-card{
+        text-align: center;
+    }
+    .services{
+        margin-top: 4em;
     }
     .services img{
-        justify-self: center;
-        align-self: center;
+        margin-top: eem;
     }
-    .header-area img{
-        width: 90%;
+    .subscription-form input{
+        border-radius: 5px 5px 0 0;
     }
-
+    .subscription-form button{
+        border-radius: 0 0 5px 5px;
+    }
 }
