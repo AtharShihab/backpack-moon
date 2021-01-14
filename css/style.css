@@ -2,6 +2,9 @@ header{
     background-color: #FFFFF4;
     height: 715px;
 }
+img{
+    width: 100%;
+}
 .header-area h1{
     font-size: 80px;
     padding: 0;
