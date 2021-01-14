@@ -1,12 +1,25 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+}
 header{
     background-color: #FFFFF4;
     height: 715px;
 }
+main{
+    padding-top: 4em;
+}
+
 .header-area h1{
     font-size: 80px;
-    padding: 0;
     margin: 0;
-    width: 100%;
+    padding: 0;
+}
+.header-area p{
+    margin-top: 2em;
+
+}
+.services img{
+    width: 94%;
 }
 .cl-dark-blue{
     color: #363958;
@@ -27,8 +40,19 @@ header{
     border: 0;
 }
 
-@media (max-width: 688px){
-    .navbar-brand img{
-        width: 50%;
+@media only screen and (max-width: 992px){
+    header{
+        margin-bottom: 30px;
     }
+    .navbar-brand img, .services img{
+        width: 100%;
+    }
+    .services img{
+        justify-self: center;
+        align-self: center;
+    }
+    .header-area img{
+        width: 90%;
+    }
+
 }
