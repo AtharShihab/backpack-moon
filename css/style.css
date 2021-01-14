@@ -2,9 +2,6 @@ header{
     background-color: #FFFFF4;
     height: 715px;
 }
-img{
-    width: 100%;
-}
 .header-area h1{
     font-size: 80px;
     padding: 0;
@@ -28,4 +25,10 @@ img{
 .bp-footer{
     background-color: white;
     border: 0;
+}
+
+@media (max-width: 688px){
+    .navbar-brand img{
+        width: 50%;
+    }
 }
